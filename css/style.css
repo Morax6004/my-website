@@ -352,3 +352,31 @@ footer {
     padding: 15px 20px;
   }
 }
+/* 简介容器样式 */
+.photo-info {
+  padding: 15px;
+  background: #f9f9f9; /* 给文字一个浅灰色背景 */
+  border-top: 2px solid #2e7d32; /* 顶部加一条你主题的绿色细线 */
+}
+
+.photo-info h3 {
+  margin: 0 0 8px 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.photo-info p {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #666;
+}
+
+/* 确保图片和文字在容器内垂直排列 */
+.gallery-item {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
